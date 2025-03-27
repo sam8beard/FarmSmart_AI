@@ -1,0 +1,63 @@
+* { 
+    font-family: Hedvig Letters Sans;
+}
+.bg-light { 
+    background-color: #4E92BA !important;
+}
+
+.farmsmart-header { 
+    color: white !important;
+    font-size: 4em !important;
+}
+.row { 
+    /* border: solid 2px rgb(22, 26, 30);  */
+}
+
+.container { 
+    /* display: flex; */
+    flex-grow: 0;
+    background-color: white !important;
+    border-radius: 3.5%;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    
+}
+
+.title-row { 
+    font-weight: bold !important;
+    flex:auto;
+}
+.hedvig-letters-sans-regular {
+    font-family: "Hedvig Letters Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.col {
+    /* border: solid 2px rgb(104, 113, 122);  */
+    margin: 5px;
+    padding: 5px;
+    font-size: small !important;
+    /* background-color: #d9d9d9 !important; */
+    border-radius: 3.5%;
+    color: black !important;
+    font-weight: bold !important;
+    text-align: center;
+}
+
+#data-cell { 
+    background-color: #d9d9d9 !important;
+    color: black !important;
+    font-weight: normal !important;
+}
+
+.logo-col { 
+    display: flex;
+    justify-content: center;
+}
+
+.logo-col img { 
+    max-width: 50%;
+    height: auto;
+}
