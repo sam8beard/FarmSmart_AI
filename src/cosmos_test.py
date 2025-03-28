@@ -7,8 +7,8 @@ connection_string = "mongodb+srv://farmsmarttest2025:ruCfjHmv3zNw29H@farmsmart.m
 client = MongoClient(connection_string)
 
 # Access the database and collection
-db = client["farmsmart-test-1"]  # Replace with your database name
-collection = db["test-info"]  # Replace with your collection name
+db = client["farmsmart-ai"]  # Replace with your database name
+collection = db["moisture-data"]  # Replace with your collection name
 
 # Example data to insert
 data = {
