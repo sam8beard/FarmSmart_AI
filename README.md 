@@ -2,8 +2,9 @@ pip3 install spidev
 pip3 install azure-iot-device 
 
 #THINGS TO DO
-1. Define program that reads moisture data and scales values for best use 
+1. Define program that reads moisture data and scales values for best use
 2. Populate database with soil moisture data (real) 
+ABOVE ARE DONE
 3. Train linear regression model on past soil moisture data to predict future moisture 
 4. Integrate weather API to query: humidity, expected level of rain, and temperature
 5. Train linear regression model on past data (2 weeks?) to predict future values (see above) 
