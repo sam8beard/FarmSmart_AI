@@ -3,6 +3,7 @@ import board
 from adafruit_seesaw.seesaw import Seesaw
 from pymongo import MongoClient
 from azure.iot.device import IoTHubDeviceClient
+import pandas as pd
 
 connection_string = "mongodb+srv://farmsmarttest2025:ruCfjHmv3zNw29H@farmsmart.mongocluster.cosmos.azure.com/?tls=true&authMechanism=SCRAM-SHA-256&retrywrites=false&maxIdleTimeMS=120000"
 # CONNECTION_STRING = "HostName=Farmsmart-AI.azure-devices.net;DeviceId=RaspberryPi4;SharedAccessKey=ckZXdDGQQYConKkO/d4P6JMw/Iu5RImblqEl8CFzG3M="
@@ -21,8 +22,8 @@ ss = Seesaw(i2c_bus, addr=0x36)
 
 while True: 
     touch = ss.moisture_read()
-    # Scale value to percentage, 300 (0) = completely dry && 900 (100) = completely saturated
-    scaled_value = ((touch - 300) * 100) / 600
+    # Scale value to percentage, 200 (0) = completely dry && 1500 (100) = completely saturated
+    scaled_value = ((touch - 200) * 100) / 1300
     touch = scaled_value
     temp = ss.get_temp()
 
@@ -35,7 +36,7 @@ while True:
         print("Message successfully sent")
     elif (touch > 70):
         message = "Moisture level subobtimal: Please stop watering."
-        # add message for over hydration??? 
+       
     else:
         message = "Moisture level optimal: No action required." 
     
@@ -53,6 +54,9 @@ while True:
     
     result = collection.insert_one(data)
     print(f"Document inserted with ID:xx {result.inserted_id}")
+    print(f"Moisture Level: {touch}")
+    # Collect reading every 5 seconds
+    time.sleep(1) 
 
-    # Collect reading every 10 seconds
-    time.sleep(10) 
+
+   

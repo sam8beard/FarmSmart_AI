@@ -30,20 +30,34 @@
         <h3> Current Temperature </h3>
         <h1 class="temp"> 81 &deg;F</h1>
       </div>
-      <div class="col" id="data-cell">
+      <!-- <div class="col" id="data-cell">
         <h3> [AI Summary] </h3>
+      </div> -->
+    </div>
+
+    <div class="row"> 
+      <!-- <div class="col" id="data-cell">
+        <h3> [Predictive Moisture]</h3>
+        
+      </div> -->
+      <div class="col text-center" id="data-cell">
+        <h3> Predictive Moisture Chart </h3>
+        <div class="chart-container" style="width: 100%; margin:0 auto">
+          <img src="data:image/png;base64,{{ plot_url }}" alt="Moisture Chart" class="img-fluid" />
+        </div>
       </div>
     </div>
+
     <div class="row"> 
       <div class="col" id="data-cell">
-        <h3> [Moisture Level]</h3>
+        <h3> Moisture Level</h3>
         <!-- Eventually this will be dynamic and update on a loop -->
          <h1> 70% </h1>
       </div>
       <div class="col text-center" id="data-cell">
         <h3> [Chart] </h3>
         <div class="chart-container" style="width: 100%; margin:0 auto">
-          <canvas id="plantGrowthChart" > </canvas>
+          <canvas id="plantGrowthChart" ></canvas>
         </div>
       </div>
     </div>
@@ -56,6 +70,14 @@
   <!-- Dummy data script -->
   <script>
 
+
+    // need to code the backend of the application
+
+    // fetch('/api/data')
+    //     .then(response => response.json())
+    //     .then(data => {
+    //         console.log(data); // Use this data to update DOM or graphs
+    //     });
     
     // This will be populated with the data from Flask
     const plantGrowthData = {{ dummy_data | tojson | safe}};
@@ -90,6 +112,7 @@
             }
         }
     });
+
 </script>
 </body>
 </html>

@@ -1,0 +1,93 @@
+_id,sensor_id,temperature,moisture,timestamp,report
+ObjectId(67e6503f684f728127ba677b),RaspberryPi4,23.784379184520002,63.333333333333336,2025-03-28T03:31:11,Moisture level optimal: No action required.
+ObjectId(67e65044684f728127ba677c),RaspberryPi4,23.48698556232,34.666666666666664,2025-03-28T03:31:16,Moisture level optimal: No action required.
+ObjectId(67e65047684f728127ba677d),RaspberryPi4,23.48698556232,34.5,2025-03-28T03:31:19,Moisture level optimal: No action required.
+ObjectId(67e6504b684f728127ba677e),RaspberryPi4,23.88147080166,6,2025-03-28T03:31:23,Moisture level suboptimal: Please water.
+ObjectId(67e6504e684f728127ba677f),RaspberryPi4,23.88147080166,40.833333333333336,2025-03-28T03:31:26,Moisture level optimal: No action required.
+ObjectId(67e65052684f728127ba6780),RaspberryPi4,23.88147080166,42.5,2025-03-28T03:31:30,Moisture level optimal: No action required.
+ObjectId(67e65055684f728127ba6781),RaspberryPi4,23.784379184520002,42.5,2025-03-28T03:31:33,Moisture level optimal: No action required.
+ObjectId(67e65058684f728127ba6782),RaspberryPi4,24.08175754794,42.833333333333336,2025-03-28T03:31:36,Moisture level optimal: No action required.
+ObjectId(67e650977c9e221c08c1ce04),RaspberryPi4,24.08175754794,44.125,2025-03-28T03:32:39,Moisture level optimal: No action required.
+ObjectId(67e6509c7c9e221c08c1ce05),RaspberryPi4,23.984650672020003,43.875,2025-03-28T03:32:44,Moisture level optimal: No action required.
+ObjectId(67e650ebbe06c6a47b89d284),RaspberryPi4,23.784379184520002,27.46153846153846,2025-03-28T03:34:03,Moisture level suboptimal: Please water.
+ObjectId(67e650f0be06c6a47b89d285),RaspberryPi4,23.6872723086,39.23076923076923,2025-03-28T03:34:08,Moisture level optimal: No action required.
+ObjectId(67e650f4be06c6a47b89d286),RaspberryPi4,23.584092438240003,38.92307692307692,2025-03-28T03:34:12,Moisture level optimal: No action required.
+ObjectId(67e6528154d9daf72fff6426),RaspberryPi4,23.19568019334,38.84615384615385,2025-03-28T03:40:49,Moisture level optimal: No action required.
+ObjectId(67e6528654d9daf72fff6427),RaspberryPi4,23.29277181048,38.69230769230769,2025-03-28T03:40:54,Moisture level optimal: No action required.
+ObjectId(67e6528a54d9daf72fff6428),RaspberryPi4,23.19568019334,39.07692307692308,2025-03-28T03:40:58,Moisture level optimal: No action required.
+ObjectId(67e6528d54d9daf72fff6429),RaspberryPi4,23.784379184520002,12.384615384615385,2025-03-28T03:41:01,Moisture level suboptimal: Please water.
+ObjectId(67e6529154d9daf72fff642a),RaspberryPi4,23.29277181048,40.23076923076923,2025-03-28T03:41:05,Moisture level optimal: No action required.
+ObjectId(67e6529454d9daf72fff642b),RaspberryPi4,24.3730781757,28.76923076923077,2025-03-28T03:41:08,Moisture level suboptimal: Please water.
+ObjectId(67e6529854d9daf72fff642c),RaspberryPi4,23.3898786864,28.23076923076923,2025-03-28T03:41:12,Moisture level suboptimal: Please water.
+ObjectId(67e6529c54d9daf72fff642d),RaspberryPi4,23.3898786864,28.53846153846154,2025-03-28T03:41:16,Moisture level suboptimal: Please water.
+ObjectId(67e6529f54d9daf72fff642e),RaspberryPi4,23.6872723086,28.846153846153847,2025-03-28T03:41:19,Moisture level suboptimal: Please water.
+ObjectId(67e652a354d9daf72fff642f),RaspberryPi4,23.48698556232,29.923076923076923,2025-03-28T03:41:23,Moisture level suboptimal: Please water.
+ObjectId(67e652a654d9daf72fff6430),RaspberryPi4,23.48698556232,32.53846153846154,2025-03-28T03:41:26,Moisture level optimal: No action required.
+ObjectId(67e652a954d9daf72fff6431),RaspberryPi4,23.584092438240003,32.69230769230769,2025-03-28T03:41:29,Moisture level optimal: No action required.
+ObjectId(67e652ad54d9daf72fff6432),RaspberryPi4,23.48698556232,32.76923076923077,2025-03-28T03:41:33,Moisture level optimal: No action required.
+ObjectId(67e652b054d9daf72fff6433),RaspberryPi4,23.48698556232,33.38461538461539,2025-03-28T03:41:36,Moisture level optimal: No action required.
+ObjectId(67e652b354d9daf72fff6434),RaspberryPi4,23.48698556232,32.30769230769231,2025-03-28T03:41:39,Moisture level optimal: No action required.
+ObjectId(67e652b754d9daf72fff6435),RaspberryPi4,23.48698556232,33.15384615384615,2025-03-28T03:41:43,Moisture level optimal: No action required.
+ObjectId(67e652bb54d9daf72fff6436),RaspberryPi4,23.88147080166,32.38461538461539,2025-03-28T03:41:47,Moisture level optimal: No action required.
+ObjectId(67e652be54d9daf72fff6437),RaspberryPi4,23.582139314400003,33.46153846153846,2025-03-28T03:41:50,Moisture level optimal: No action required.
+ObjectId(67e652c154d9daf72fff6438),RaspberryPi4,23.29277181048,32.53846153846154,2025-03-28T03:41:53,Moisture level optimal: No action required.
+ObjectId(67e652c554d9daf72fff6439),RaspberryPi4,23.19568019334,32.69230769230769,2025-03-28T03:41:57,Moisture level optimal: No action required.
+ObjectId(67e652c854d9daf72fff643a),RaspberryPi4,23.19568019334,33.23076923076923,2025-03-28T03:42:00,Moisture level optimal: No action required.
+ObjectId(67e652cc54d9daf72fff643b),RaspberryPi4,23.48698556232,33,2025-03-28T03:42:04,Moisture level optimal: No action required.
+ObjectId(67e652cf54d9daf72fff643c),RaspberryPi4,23.584092438240003,33,2025-03-28T03:42:07,Moisture level optimal: No action required.
+ObjectId(67e652d254d9daf72fff643d),RaspberryPi4,23.48698556232,33.46153846153846,2025-03-28T03:42:10,Moisture level optimal: No action required.
+ObjectId(67e652d654d9daf72fff643e),RaspberryPi4,23.29277181048,32.69230769230769,2025-03-28T03:42:14,Moisture level optimal: No action required.
+ObjectId(67e652d954d9daf72fff643f),RaspberryPi4,23.48698556232,32.38461538461539,2025-03-28T03:42:17,Moisture level optimal: No action required.
+ObjectId(67e652dd54d9daf72fff6440),RaspberryPi4,23.3898786864,33.23076923076923,2025-03-28T03:42:21,Moisture level optimal: No action required.
+ObjectId(67e652e054d9daf72fff6441),RaspberryPi4,23.48698556232,33.23076923076923,2025-03-28T03:42:24,Moisture level optimal: No action required.
+ObjectId(67e652e354d9daf72fff6442),RaspberryPi4,23.19568019334,32.30769230769231,2025-03-28T03:42:27,Moisture level optimal: No action required.
+ObjectId(67e652e754d9daf72fff6443),RaspberryPi4,23.29277181048,32.30769230769231,2025-03-28T03:42:31,Moisture level optimal: No action required.
+ObjectId(67e652ea54d9daf72fff6444),RaspberryPi4,23.19568019334,32.84615384615385,2025-03-28T03:42:34,Moisture level optimal: No action required.
+ObjectId(67e652ee54d9daf72fff6445),RaspberryPi4,23.3898786864,32.30769230769231,2025-03-28T03:42:38,Moisture level optimal: No action required.
+ObjectId(67e652f154d9daf72fff6446),RaspberryPi4,23.6872723086,32.23076923076923,2025-03-28T03:42:41,Moisture level optimal: No action required.
+ObjectId(67e652f554d9daf72fff6447),RaspberryPi4,23.29277181048,33.07692307692308,2025-03-28T03:42:45,Moisture level optimal: No action required.
+ObjectId(67e652f854d9daf72fff6448),RaspberryPi4,23.48698556232,32.53846153846154,2025-03-28T03:42:48,Moisture level optimal: No action required.
+ObjectId(67e652fb54d9daf72fff6449),RaspberryPi4,23.48698556232,32.76923076923077,2025-03-28T03:42:51,Moisture level optimal: No action required.
+ObjectId(67e652ff54d9daf72fff644a),RaspberryPi4,23.29277181048,33.30769230769231,2025-03-28T03:42:55,Moisture level optimal: No action required.
+ObjectId(67e6530254d9daf72fff644b),RaspberryPi4,23.29277181048,32.38461538461539,2025-03-28T03:42:58,Moisture level optimal: No action required.
+ObjectId(67e6530554d9daf72fff644c),RaspberryPi4,23.3898786864,33.30769230769231,2025-03-28T03:43:01,Moisture level optimal: No action required.
+ObjectId(67e6530954d9daf72fff644d),RaspberryPi4,23.29277181048,18.76923076923077,2025-03-28T03:43:05,Moisture level suboptimal: Please water.
+ObjectId(67e6530c54d9daf72fff644e),RaspberryPi4,23.19568019334,18.153846153846153,2025-03-28T03:43:08,Moisture level suboptimal: Please water.
+ObjectId(67e6531054d9daf72fff644f),RaspberryPi4,23.3898786864,22.153846153846153,2025-03-28T03:43:12,Moisture level suboptimal: Please water.
+ObjectId(67e6531454d9daf72fff6450),RaspberryPi4,23.48698556232,22.076923076923077,2025-03-28T03:43:16,Moisture level suboptimal: Please water.
+ObjectId(67e6531754d9daf72fff6451),RaspberryPi4,23.29277181048,22.53846153846154,2025-03-28T03:43:19,Moisture level suboptimal: Please water.
+ObjectId(67e6531b54d9daf72fff6452),RaspberryPi4,23.29277181048,22.76923076923077,2025-03-28T03:43:23,Moisture level suboptimal: Please water.
+ObjectId(67e6531f54d9daf72fff6453),RaspberryPi4,23.3898786864,22.692307692307693,2025-03-28T03:43:27,Moisture level suboptimal: Please water.
+ObjectId(67e6532254d9daf72fff6454),RaspberryPi4,23.6872723086,22.23076923076923,2025-03-28T03:43:30,Moisture level suboptimal: Please water.
+ObjectId(67e6532654d9daf72fff6455),RaspberryPi4,23.29277181048,21,2025-03-28T03:43:34,Moisture level suboptimal: Please water.
+ObjectId(67e6532954d9daf72fff6456),RaspberryPi4,23.48698556232,36.38461538461539,2025-03-28T03:43:37,Moisture level optimal: No action required.
+ObjectId(67e6532d54d9daf72fff6457),RaspberryPi4,23.19568019334,36.76923076923077,2025-03-28T03:43:41,Moisture level optimal: No action required.
+ObjectId(67e65a16fdb4080842bed38d),RaspberryPi4,23.784379184520002,36.07692307692308,2025-03-28T04:13:10,Moisture level optimal: No action required.
+ObjectId(67e65cd4fdb4080842bed38e),RaspberryPi4,24.47624278728,37.23076923076923,2025-03-28T04:24:52,Moisture level optimal: No action required.
+ObjectId(67e65f92fdb4080842bed38f),RaspberryPi4,24.96783490254,36.15384615384615,2025-03-28T04:36:34,Moisture level optimal: No action required.
+ObjectId(67e66250fdb4080842bed390),RaspberryPi4,24.27597129978,36.69230769230769,2025-03-28T04:48:16,Moisture level optimal: No action required.
+ObjectId(67e6650efdb4080842bed391),RaspberryPi4,24.87072802662,36.15384615384615,2025-03-28T04:59:58,Moisture level optimal: No action required.
+ObjectId(67e667cdfdb4080842bed392),RaspberryPi4,24.08175754794,37.23076923076923,2025-03-28T05:11:41,Moisture level optimal: No action required.
+ObjectId(67e66a8bfdb4080842bed393),RaspberryPi4,24.573349663200002,37.07692307692308,2025-03-28T05:23:23,Moisture level optimal: No action required.
+ObjectId(67e66d49fdb4080842bed394),RaspberryPi4,24.27597129978,37,2025-03-28T05:35:05,Moisture level optimal: No action required.
+ObjectId(67e67007fdb4080842bed395),RaspberryPi4,23.984650672020003,37.30769230769231,2025-03-28T05:46:47,Moisture level optimal: No action required.
+ObjectId(67e672c5fdb4080842bed396),RaspberryPi4,24.47624278728,37,2025-03-28T05:58:29,Moisture level optimal: No action required.
+ObjectId(67e67583fdb4080842bed397),RaspberryPi4,23.784379184520002,36.15384615384615,2025-03-28T06:10:11,Moisture level optimal: No action required.
+ObjectId(67e67841fdb4080842bed398),RaspberryPi4,24.77363640948,36.84615384615385,2025-03-28T06:21:53,Moisture level optimal: No action required.
+ObjectId(67e67afffdb4080842bed399),RaspberryPi4,24.27597129978,36.46153846153846,2025-03-28T06:33:35,Moisture level optimal: No action required.
+ObjectId(67e67dbefdb4080842bed39a),RaspberryPi4,23.88147080166,36.38461538461539,2025-03-28T06:45:17,Moisture level optimal: No action required.
+ObjectId(67e6807cfdb4080842bed39b),RaspberryPi4,24.96783490254,36.46153846153846,2025-03-28T06:57:00,Moisture level optimal: No action required.
+ObjectId(67e6833afdb4080842bed39c),RaspberryPi4,23.6872723086,36.61538461538461,2025-03-28T07:08:42,Moisture level optimal: No action required.
+ObjectId(67e685f8fdb4080842bed39d),RaspberryPi4,24.87072802662,36.69230769230769,2025-03-28T07:20:24,Moisture level optimal: No action required.
+ObjectId(67e688b6fdb4080842bed39e),RaspberryPi4,24.178864423860002,37.38461538461539,2025-03-28T07:32:06,Moisture level optimal: No action required.
+ObjectId(67e68b74fdb4080842bed39f),RaspberryPi4,24.3730781757,37.23076923076923,2025-03-28T07:43:48,Moisture level optimal: No action required.
+ObjectId(67e68e32fdb4080842bed3a0),RaspberryPi4,24.67045653912,37.15384615384615,2025-03-28T07:55:30,Moisture level optimal: No action required.
+ObjectId(67e690f0fdb4080842bed3a1),RaspberryPi4,23.6872723086,37.23076923076923,2025-03-28T08:07:12,Moisture level optimal: No action required.
+ObjectId(67e693aefdb4080842bed3a2),RaspberryPi4,24.67045653912,37.23076923076923,2025-03-28T08:18:54,Moisture level optimal: No action required.
+ObjectId(67e6966dfdb4080842bed3a3),RaspberryPi4,24.178864423860002,36.53846153846154,2025-03-28T08:30:37,Moisture level optimal: No action required.
+ObjectId(67e6992bfdb4080842bed3a4),RaspberryPi4,24.87072802662,37.07692307692308,2025-03-28T08:42:19,Moisture level optimal: No action required.
+ObjectId(67e69be9fdb4080842bed3a5),RaspberryPi4,24.573349663200002,36.23076923076923,2025-03-28T08:54:01,Moisture level optimal: No action required.
+ObjectId(67e69ea7fdb4080842bed3a6),RaspberryPi4,24.27597129978,37.30769230769231,2025-03-28T09:05:43,Moisture level optimal: No action required.
+ObjectId(67e6a165fdb4080842bed3a7),RaspberryPi4,24.96783490254,36.69230769230769,2025-03-28T09:17:25,Moisture level optimal: No action required.
+ObjectId(67e6a424fdb4080842bed3a8),RaspberryPi4,24.47624278728,36.15384615384615,2025-03-28T09:29:08,Moisture level optimal: No action required.
+ObjectId(67e6a6e2fdb4080842bed3a9),RaspberryPi4,24.47624278728,36.15384615384615,2025-03-28T09:40:50,Moisture level optimal: No action required.

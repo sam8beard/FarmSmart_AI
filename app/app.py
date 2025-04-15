@@ -1,5 +1,9 @@
 from flask import Flask, jsonify, render_template
 from flask_pymongo import PyMongo
+from random_forest import random_forest
+import matplotlib.pyplot as plt
+import io
+import base64
 
 app = Flask(__name__)
 
@@ -16,11 +20,33 @@ def index():
         "growth": [2, 3, 5, 7, 9]
     }
 
+    df_table = random_forest()
+
+    # matplotlib generation from dataframe
+
+    fig, ax = plt.subplots(figsize=(10, 6))
+    ax.plot(df_table['timestamp'], df_table['y_test'], label='Actual Moisture', marker='o')
+    ax.plot(df_table['timestamp'], df_table['y_pred'], label='Predicted Moisture', marker='x')
+    ax.set_title('Actual vs Predicted Moisture Levels')
+    ax.set_xlabel('Timestamp')
+    ax.set_ylabel('Moisture')
+    ax.grid(True)
+    ax.legend()
+    plt.tight_layout()
+
+    # Save plot to buffer
+    buf = io.BytesIO()
+    plt.savefig(buf, format='png')
+    buf.seek(0)
+    encoded_plot = base64.b64encode(buf.getvalue()).decode('utf-8')
+    buf.close()
+    plt.close(fig)  # Avoid memory leaks
+
     # finds and retrieves a single document from the specified collection 
     test_data = mongo.db['test-info'].find_one()
     
     # return f"<h1>Hello</h1>"
-    return render_template('index.html', dummy_data=dummy_data)
+    return render_template('index.html', dummy_data=dummy_data, plot_url=encoded_plot)
 
 
 # For dynamically updating the page with sensor data - implement later 
