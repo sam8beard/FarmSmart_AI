@@ -1,6 +1,6 @@
 from sklearn.model_selection import train_test_split
 # splits a dataframe into training and testing subsets
-
+import os
 import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error
@@ -10,8 +10,8 @@ import matplotlib.pyplot as plt
 # of time on a variable rather than classification
 
 def random_forest():
-    #read csv into a datafram object
-    df = pd.read_csv("moisture_data.csv")
+    #read csv into a dataframe object
+    df = pd.read_csv(os.path.join(os.path.dirname(__file__), 'moisture_data.csv'))
     df = df.drop(['_id', 'sensor_id', 'report'], axis=1)
 
     #Predicting future moisture levels, need to do a time series predictor
