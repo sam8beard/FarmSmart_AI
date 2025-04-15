@@ -10,7 +10,8 @@ import matplotlib.pyplot as plt
 # of time on a variable rather than classification
 
 def random_forest():
-    #read csv into a dataframe object
+    
+    # provide absolute path to the csv file
     df = pd.read_csv(os.path.join(os.path.dirname(__file__), 'moisture_data.csv'))
     df = df.drop(['_id', 'sensor_id', 'report'], axis=1)
 
