@@ -1,6 +1,6 @@
 import time
 import board
-from adafruit_seesaw.seesaw import Seesaw
+from Adafruit_Seesaw.seesaw import Seesaw
 from pymongo import MongoClient
 from azure.iot.device import IoTHubDeviceClient
 import pandas as pd
