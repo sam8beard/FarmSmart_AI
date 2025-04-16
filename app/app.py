@@ -4,7 +4,7 @@ from random_forest import random_forest
 import matplotlib.pyplot as plt
 import io
 import base64
-
+from summary import gpt_summary
 app = Flask(__name__)
 
 app.config['MONGO_URI'] = "mongodb+srv://farmsmarttest2025:ruCfjHmv3zNw29H@farmsmart.mongocluster.cosmos.azure.com/farmsmart-test-1?tls=true&authMechanism=SCRAM-SHA-256&retrywrites=false&maxIdleTimeMS=120000"
@@ -21,7 +21,7 @@ def index():
     }
 
     df_table = random_forest()
-
+    ai_summary = gpt_summary()
     # matplotlib generation from dataframe
 
     fig, ax = plt.subplots(figsize=(10, 6))
@@ -46,7 +46,7 @@ def index():
     test_data = mongo.db['test-info'].find_one()
     
     # return f"<h1>Hello</h1>"
-    return render_template('index.html', dummy_data=dummy_data, plot_url=encoded_plot)
+    return render_template('index.html', dummy_data=dummy_data, plot_url=encoded_plot, ai_summary=ai_summary)
 
 
 # For dynamically updating the page with sensor data - implement later 
