@@ -68,7 +68,7 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Dummy data script -->
+  <!-- Dummy data script for testing -->
   <script>
 
 
@@ -81,38 +81,38 @@
     //     });
     
     // This will be populated with the data from Flask
-    const plantGrowthData = {{ dummy_data | tojson | safe}};
+    // const plantGrowthData = {{ dummy_data | tojson | safe}};
     
-    const ctx = document.getElementById('plantGrowthChart').getContext('2d');
-    const plantGrowthChart = new Chart(ctx, {
-        type: 'line',
-        data: {
-            labels: plantGrowthData.dates, // Time data
-            datasets: [{
-                label: 'Plant Growth (cm)',
-                data: plantGrowthData.growth, // Growth data
-                fill: false,
-                borderColor: 'rgba(75, 192, 192, 1)',
-                tension: 0.1
-            }]
-        },
-        options: {
-            scales: {
-                x: {
-                    title: {
-                        display: true,
-                        text: 'Time (days)'
-                    }
-                },
-                y: {
-                    title: {
-                        display: true,
-                        text: 'Growth (cm)'
-                    }
-                }
-            }
-        }
-    });
+    // const ctx = document.getElementById('plantGrowthChart').getContext('2d');
+    // const plantGrowthChart = new Chart(ctx, {
+    //     type: 'line',
+    //     data: {
+    //         labels: plantGrowthData.dates, // Time data
+    //         datasets: [{
+    //             label: 'Plant Growth (cm)',
+    //             data: plantGrowthData.growth, // Growth data
+    //             fill: false,
+    //             borderColor: 'rgba(75, 192, 192, 1)',
+    //             tension: 0.1
+    //         }]
+    //     },
+    //     options: {
+    //         scales: {
+    //             x: {
+    //                 title: {
+    //                     display: true,
+    //                     text: 'Time (days)'
+    //                 }
+    //             },
+    //             y: {
+    //                 title: {
+    //                     display: true,
+    //                     text: 'Growth (cm)'
+    //                 }
+    //             }
+    //         }
+    //     }
+    // });
 
 </script>
 </body>

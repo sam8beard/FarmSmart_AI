@@ -8,7 +8,7 @@ import pandas as pd
 connection_string = "mongodb+srv://farmsmarttest2025:ruCfjHmv3zNw29H@farmsmart.mongocluster.cosmos.azure.com/?tls=true&authMechanism=SCRAM-SHA-256&retrywrites=false&maxIdleTimeMS=120000"
 # CONNECTION_STRING = "HostName=Farmsmart-AI.azure-devices.net;DeviceId=RaspberryPi4;SharedAccessKey=ckZXdDGQQYConKkO/d4P6JMw/Iu5RImblqEl8CFzG3M="
 CONNECTION_STRING = "HostName=FarmsmartAI.azure-devices.net;DeviceId=farmsmart;SharedAccessKey=ZRdG03Ac45T8AF0UZYb9jYN3yotE7QFk9M+ms3tmxWY="
-azure_client = IoTHubDeviceClient.create_from_connection_string(CONNECTION_STRING)
+# azure_client = IoTHubDeviceClient.create_from_connection_string(CONNECTION_STRING)
 client = MongoClient(connection_string) 
 azure_client = IoTHubDeviceClient.create_from_connection_string(CONNECTION_STRING)
 azure_client.connect()
@@ -39,9 +39,6 @@ while True:
        
     else:
         message = "Moisture level optimal: No action required." 
-    
-    
-    
     
     
     data = {
