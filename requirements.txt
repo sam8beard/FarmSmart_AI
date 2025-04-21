@@ -43,7 +43,7 @@ kiwisolver==1.4.8
 MarkupSafe==3.0.2
 matplotlib==3.10.1
 numpy==2.2.4
-openai==1.74.0
+openai==0.28
 openmeteo_requests==1.4.0
 openmeteo_sdk==1.19.0
 packaging==24.2
