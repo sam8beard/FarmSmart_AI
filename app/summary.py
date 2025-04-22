@@ -56,7 +56,7 @@ def gpt_summary():
         model="gpt-4.1",
         messages=[
             {"role": "system", "content": "You are an expert on farming and consulting fellow farmers on best practices."},
-            {"role": "user", "content": f"Based on the following weather data for the next 7 days, return a ~100 word recommendation for the best farming/water practices for the crop being monitored:\n{hourly_data_json}"}
+            {"role": "user", "content": f"Based on the following weather data for the next 7 days, return a ~100 word recommendation for the best farming/water practices for the crop being monitored. Do not include markdown:\n{hourly_data_json}"}
         ],
         max_tokens=200
     )
