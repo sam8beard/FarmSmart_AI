@@ -45,7 +45,7 @@ def index():
     # finds and retrieves a single document from the specified collection 
     test_data = mongo.db['test-info'].find_one()
     
-    # return f"<h1>Hello</h1>"
+ 
     return render_template('index.html', dummy_data=dummy_data, plot_url=encoded_plot, ai_summary=ai_summary)
 
 
